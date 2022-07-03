@@ -8,55 +8,71 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
     <header>
-      <div>
+      <div class="menu-containter">
         <nav>
-          <h2><a href="index.html">WebStudio</a></h2>
-          <div>
+          <h2>
+            <a href="index.html" class="logo"
+              ><span class="logo-primary">Web</span
+              ><span class="logo-secondary">Studio</span></a
+            >
+          </h2>
+          <div class="menu-links">
             <a href="agencja.html">Agencja</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="kontakt">Kontakt</a>
           </div>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a href="mailto:info@devstudio.com" class="contact-links"
+          >info@devstudio.com</a
+        >
+        <a href="tel:+48111111111" class="contact-links">+48 111 111 111</a>
       </div>
-      <div>
+      <div class="main-header">
         <h1>Efektywne rozwiązania dla waszego biznesu</h1>
-        <button type="button">Zamów usługe</button>
+        <button type="button" class="header-button">Zamów usługe</button>
       </div>
     </header>
 
     <main>
-      <ul>
+      <ul class="skills">
         <li>
-          <h3>LOREM IPSUM</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-          sem. Sed non sodales dui. Interdum et malesuada
+          <h3 class="skill-name">LOREM IPSUM</h3>
+          <span class="skill-description"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada</span
+          >
         </li>
         <li>
-          <h3>LOREM IPSUM</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-          sem. Sed non sodales dui. Interdum et malesuada
+          <h3 class="skill-name">LOREM IPSUM</h3>
+          <span class="skill-description"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada</span
+          >
         </li>
         <li>
-          <h3>LOREM IPSUM</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-          sem. Sed non sodales dui. Interdum et malesuada
+          <h3 class="skill-name">LOREM IPSUM</h3>
+          <span class="skill-description"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada</span
+          >
         </li>
         <li>
-          <h3>LOREM IPSUM</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-          sem. Sed non sodales dui. Interdum et malesuada
+          <h3 class="skill-name">LOREM IPSUM</h3>
+          <span class="skill-description"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et malesuada</span
+          >
         </li>
       </ul>
 
       <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2 class="section-title">Czym się zajmujemy</h2>
+        <ul class="activity-images">
           <li>
             <img
               src="./images/zdjecie1.jpg"
@@ -84,11 +100,11 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+      <section class="team">
+        <h2 class="section-title">Nasz zespół</h2>
+        <ul class="team-members">
           <li>
-            <figure>
+            <figure class="member-box">
               <img
                 src="./images/zdjecie4.jpg"
                 alt="John Doe"
@@ -96,13 +112,13 @@
                 height="260"
               />
               <figcaption>
-                <p>John Doe</p>
-                <p>Product Designer</p>
+                <p class="member-name">John Doe</p>
+                <p class="member-job">Product Designer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="member-box">
               <img
                 src="./images/zdjecie5.jpg"
                 alt="John Doe"
@@ -110,13 +126,13 @@
                 height="260"
               />
               <figcaption>
-                <p>John Doe</p>
-                <p>Frontend Developer</p>
+                <p class="member-name">John Doe</p>
+                <p class="member-job">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="member-box">
               <img
                 src="./images/zdjecie6.jpg"
                 alt="John Doe"
@@ -124,13 +140,13 @@
                 height="260"
               />
               <figcaption>
-                <p>John Doe</p>
-                <p>Marketing</p>
+                <p class="member-name">John Doe</p>
+                <p class="member-job">Marketing</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="member-box">
               <img
                 src="./images/zdjecie7.jpg"
                 alt="John Doe"
@@ -138,8 +154,8 @@
                 height="260"
               />
               <figcaption>
-                <p>John Doe</p>
-                <p>UI Desiner</p>
+                <p class="member-name">John Doe</p>
+                <p class="member-job">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -148,7 +164,12 @@
     </main>
 
     <footer>
-      <h2><a href="index.html">WebStudio</a></h2>
+      <h2>
+        <a href="index.html" class="logo"
+          ><span class="logo-primary">Web</span
+          ><span class="logo-tertiary">Studio</span></a
+        >
+      </h2>
       <address>m. Warszawa, Aleje Jerozolimskie 21</address>
       <a href="mailto:info@devstudio.com">info@devstudio.com</a>
       <a href="tel:+48111111111">+48 111 111 111</a>
