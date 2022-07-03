@@ -198,3 +198,30 @@ li button:hover {
 .filter-buttons {
   list-style: none;
 }
+
+.item-list {
+  list-style: none;
+}
+
+.item {
+  width: 370px;
+  height: 404px;
+  background-color: #fff;
+}
+
+.item-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #212121;
+  line-height: 2;
+  text-align: left;
+}
+
+.item-type {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.875;
+  text-align: left;
+}
