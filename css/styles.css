@@ -176,19 +176,25 @@ footer a {
 }
 
 li button {
-  width: 200px;
-  height: 50px;
-  margin-left: 700px;
-  margin-top: 30px;
   background-color: #f5f4fa;
   color: #212121;
+  height: 38px;
+  width: auto;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  line-height: 30px;
+  font-weight: 500;
+  line-height: 26px;
   font-size: 16px;
-  text-align: center;
-  letter-spacing: 2px;
   border-radius: 4px;
   border-style: none;
   offset: 0px, 4px, rgba(0, 0, 0, 0.15);
+}
+
+li button:hover {
+  color: #fff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.filter-buttons {
+  list-style: none;
 }
