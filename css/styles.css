@@ -1,7 +1,12 @@
 body {
   width: 1600px;
   height: 2349px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+
+.menu-links {
+  list-style: none;
 }
 
 .menu-links a {
@@ -16,6 +21,7 @@ body {
 .menu-links a:hover,
 .contact-links:hover {
   color: #2196f3;
+  text-decoration: none;
 }
 
 .contact-links {
@@ -84,6 +90,7 @@ h1 {
   letter-spacing: 2px;
   border-style: none;
   offset: 0px, 4px, rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .skills {
